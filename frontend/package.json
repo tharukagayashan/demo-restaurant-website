@@ -61,7 +61,7 @@
     "build": "craco build",
     "test": "craco test",
     "predeploy": "craco build",
-    "deploy": "gh-pages build"
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
