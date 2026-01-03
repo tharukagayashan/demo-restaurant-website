@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer style={{ background: 'var(--bg-secondary)', borderTop: '1px solid var(--border-light)' }}>
       <div className="container mx-auto py-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mt-5">
           {/* Brand */}
           <div>
             <h3 className="heading-3 mb-6">GW FINS</h3>

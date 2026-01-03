@@ -40,8 +40,6 @@ body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--bg-primary);
-  color: var(--text-primary);
 }
 
 /* Typography System */
@@ -49,61 +47,53 @@ body {
   font-size: 48px;
   font-weight: 400;
   line-height: 1.2;
-  color: var(--text-primary);
 }
 
 .hero-medium {
   font-size: 32px;
   font-weight: 400;
   line-height: 1.33;
-  color: var(--text-primary);
 }
 
 .heading-1 {
   font-size: 36px;
   font-weight: 400;
   line-height: 1.2;
-  color: var(--text-primary);
 }
 
 .heading-2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.2;
-  color: var(--text-primary);
 }
 
 .heading-3 {
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
-  color: var(--text-primary);
 }
 
 .body-large {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.7;
-  color: var(--text-primary);
 }
 
 .body-regular {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
-  color: var(--text-primary);
 }
 
 .body-small {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.4;
-  color: var(--text-secondary);
 }
 
 /* Button Styles - Sharp rectangular with 0px border radius */
 .btn-primary {
-  background: transparent;
+  background: white;
   color: var(--interactive-base);
   border: 1px solid var(--interactive-base);
   border-radius: 0px;
@@ -123,14 +113,11 @@ body {
 }
 
 .btn-primary:hover {
-  background: var(--interactive-base);
-  color: var(--bg-primary);
   transform: translateY(-2px);
 }
 
 .btn-primary:active {
   background: var(--interactive-hover);
-  color: var(--bg-primary);
 }
 
 .btn-secondary {
