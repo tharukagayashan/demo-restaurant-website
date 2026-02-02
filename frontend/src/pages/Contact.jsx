@@ -133,10 +133,10 @@ const Contact = () => {
               <div className="mt-12">
                 <h3 className="heading-2 mb-6">Quick Actions</h3>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <a href="/reservations" className="btn-primary flex-1 text-center">
+                  <a href="/restaurant-demo/reservations" className="btn-primary flex-1 text-center">
                     Make Reservation
                   </a>
-                  <a href="/menu" className="btn-primary flex-1 text-center">
+                  <a href="/restaurant-demo/menu" className="btn-primary flex-1 text-center">
                     View Menu
                   </a>
                 </div>
@@ -208,7 +208,7 @@ const Contact = () => {
               <p className="body-regular mb-4" style={{ color: 'var(--text-secondary)' }}>
                 Special menus for parties of 9+
               </p>
-              <a href="/menu" className="body-regular transition-smooth hover:opacity-70">
+              <a href="/restaurant-demo/menu" className="body-regular transition-smooth hover:opacity-70">
                 View group menus
               </a>
             </div>

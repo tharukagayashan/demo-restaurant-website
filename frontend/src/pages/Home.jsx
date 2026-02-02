@@ -39,10 +39,10 @@ const Home = () => {
               </span>
             </div>
             <div className="flex flex-wrap gap-4">
-              <Link to="/reservations" className="btn-primary bg-white/10 border-white text-white hover:bg-white hover:text-black backdrop-blur-sm">
+              <Link to="/restaurant-demo/reservations" className="btn-primary bg-white/10 border-white text-white hover:bg-white hover:text-black backdrop-blur-sm">
                 Reserve a Table
               </Link>
-              <Link to="/menu" className="btn-primary bg-transparent border-white text-white hover:bg-white hover:text-black">
+              <Link to="/restaurant-demo/menu" className="btn-primary bg-transparent border-white text-white hover:bg-white hover:text-black">
                 View Menu
               </Link>
             </div>
@@ -140,7 +140,7 @@ const Home = () => {
             ))}
           </div>
           <div className="text-center mt-12">
-            <Link to="/menu" className="btn-primary">
+            <Link to="/restaurant-demo/menu" className="btn-primary">
               View Full Menu
             </Link>
           </div>
@@ -177,7 +177,7 @@ const Home = () => {
             ))}
           </div>
           <div className="text-center mt-12">
-            <Link to="/reviews" className="btn-secondary">
+            <Link to="/restaurant-demo/reviews" className="btn-secondary">
               Read All Reviews →
             </Link>
           </div>
@@ -220,7 +220,7 @@ const Home = () => {
                   </p>
                 </div>
                 <div className="pt-4">
-                  <Link to="/reservations" className="btn-primary">
+                  <Link to="/restaurant-demo/reservations" className="btn-primary">
                     Make Reservation
                   </Link>
                 </div>

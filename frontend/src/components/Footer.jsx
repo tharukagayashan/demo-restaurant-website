@@ -24,22 +24,22 @@ const Footer = () => {
           <div>
             <h4 className="heading-3 mb-6">Quick Links</h4>
             <div className="flex flex-col gap-4">
-              <Link to="/" className="body-regular transition-smooth hover:opacity-70" style={{ color: 'var(--text-secondary)' }}>
+              <Link to="/restaurant-demo/" className="body-regular transition-smooth hover:opacity-70" style={{ color: 'var(--text-secondary)' }}>
                 Home
               </Link>
-              <Link to="/menu" className="body-regular transition-smooth hover:opacity-70" style={{ color: 'var(--text-secondary)' }}>
+              <Link to="/restaurant-demo/menu" className="body-regular transition-smooth hover:opacity-70" style={{ color: 'var(--text-secondary)' }}>
                 Menu
               </Link>
-              <Link to="/reservations" className="body-regular transition-smooth hover:opacity-70" style={{ color: 'var(--text-secondary)' }}>
+              <Link to="/restaurant-demo/reservations" className="body-regular transition-smooth hover:opacity-70" style={{ color: 'var(--text-secondary)' }}>
                 Reservations
               </Link>
-              <Link to="/about" className="body-regular transition-smooth hover:opacity-70" style={{ color: 'var(--text-secondary)' }}>
+              <Link to="/restaurant-demo/about" className="body-regular transition-smooth hover:opacity-70" style={{ color: 'var(--text-secondary)' }}>
                 About
               </Link>
-              <Link to="/reviews" className="body-regular transition-smooth hover:opacity-70" style={{ color: 'var(--text-secondary)' }}>
+              <Link to="/restaurant-demo/reviews" className="body-regular transition-smooth hover:opacity-70" style={{ color: 'var(--text-secondary)' }}>
                 Reviews
               </Link>
-              <Link to="/contact" className="body-regular transition-smooth hover:opacity-70" style={{ color: 'var(--text-secondary)' }}>
+              <Link to="/restaurant-demo/contact" className="body-regular transition-smooth hover:opacity-70" style={{ color: 'var(--text-secondary)' }}>
                 Contact
               </Link>
             </div>
@@ -82,7 +82,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="mt-6">
-              <Link to="/reservations" className="btn-primary w-full">
+              <Link to="/restaurant-demo/reservations" className="btn-primary w-full">
                 Make Reservation
               </Link>
             </div>

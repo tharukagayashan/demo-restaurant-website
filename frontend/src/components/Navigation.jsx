@@ -7,12 +7,12 @@ const Navigation = () => {
   const location = useLocation();
 
   const navLinks = [
-    { path: '/', label: 'Home' },
-    { path: '/menu', label: 'Menu' },
-    { path: '/reservations', label: 'Reservations' },
-    { path: '/about', label: 'About' },
-    { path: '/reviews', label: 'Reviews' },
-    { path: '/contact', label: 'Contact' }
+    { path: '/restaurant-demo/', label: 'Home' },
+    { path: '/restaurant-demo/menu', label: 'Menu' },
+    { path: '/restaurant-demo/reservations', label: 'Reservations' },
+    { path: '/restaurant-demo/about', label: 'About' },
+    { path: '/restaurant-demo/reviews', label: 'Reviews' },
+    { path: '/restaurant-demo/contact', label: 'Contact' }
   ];
 
   const isActive = (path) => location.pathname === path;
@@ -22,7 +22,7 @@ const Navigation = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="text-2xl font-light tracking-wide" style={{ color: 'var(--text-primary)' }}>
+          <Link to="/restaurant-demo/" className="text-2xl font-light tracking-wide" style={{ color: 'var(--text-primary)' }}>
             GW FINS
           </Link>
 
@@ -45,7 +45,7 @@ const Navigation = () => {
               <Phone size={16} />
               <span>(504) 581-3467</span>
             </a>
-            <Link to="/reservations" className="btn-primary">
+            <Link to="/restaurant-demo/reservations" className="btn-primary">
               Reserve
             </Link>
           </div>
@@ -79,7 +79,7 @@ const Navigation = () => {
                   <Phone size={16} />
                   <span>(504) 581-3467</span>
                 </a>
-                <Link to="/reservations" className="btn-primary w-full" onClick={() => setIsMenuOpen(false)}>
+                <Link to="/restaurant-demo/reservations" className="btn-primary w-full" onClick={() => setIsMenuOpen(false)}>
                   Reserve Table
                 </Link>
               </div>

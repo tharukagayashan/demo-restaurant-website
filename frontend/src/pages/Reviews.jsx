@@ -170,7 +170,7 @@ const Reviews = () => {
           <p className="body-large mb-10" style={{ color: 'var(--text-secondary)' }}>
             Join thousands of satisfied guests who have discovered exceptional seafood dining
           </p>
-          <a href="/reservations" className="btn-primary">
+          <a href="/restaurant-demo/reservations" className="btn-primary">
             Make a Reservation
           </a>
         </div>

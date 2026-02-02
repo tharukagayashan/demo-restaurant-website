@@ -22,12 +22,12 @@ function App() {
       <BrowserRouter>
         <Navigation />
         <Routes>
-          <Route path="/demo-restaurant-website" element={<Home />} />
-          <Route path="/demo-restaurant-website/menu" element={<Menu />} />
-          <Route path="/demo-restaurant-website/reservations" element={<Reservations />} />
-          <Route path="/demo-restaurant-website/about" element={<About />} />
-          <Route path="/demo-restaurant-website/reviews" element={<Reviews />} />
-          <Route path="/demo-restaurant-website/contact" element={<Contact />} />
+          <Route path="/restaurant-demo/" element={<Home />} />
+          <Route path="/restaurant-demo/menu" element={<Menu />} />
+          <Route path="/restaurant-demo/reservations" element={<Reservations />} />
+          <Route path="/restaurant-demo/about" element={<About />} />
+          <Route path="/restaurant-demo/reviews" element={<Reviews />} />
+          <Route path="/restaurant-demo/contact" element={<Contact />} />
         </Routes>
         <Footer />
         <Toaster position="top-center" richColors />
